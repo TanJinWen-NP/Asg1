@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation-bar li, a, button {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navigation-options {
+    list-style: none;
+}
+
+.navigation-options li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.navigation-options li a:hover {
+    color: #358856;
+}
+
+.plants button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 65px;
+    cursor: pointer;
+    background-color: #358856;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.plants button:hover {
+    color: white;
+    background-color: #30694B;
+}
+
+.green-plants {
+    font-size: 22px;
+}
+
+span {
+    color:#358856;
+}
