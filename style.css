@@ -104,3 +104,19 @@ span {
     color: #30694B;
     background-color: #eaeaea;
 }
+
+@media (max-width: 960px) {
+    .plant-background {
+        height: 400px;
+    }
+
+    .green-plants-text h1 {
+        font-size: 50px;
+        margin-top: 120px;
+    }
+
+    .green-plants-text p {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+}
